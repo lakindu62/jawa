@@ -1,52 +1,45 @@
-.flex{
-    display: flex;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;800;900&display=swap');
+
 
 
 body {
     margin: 0;
+    background: linear-gradient(243deg, #262737 8.32%, rgba(38, 42, 55, 0.00) 80.41%);
     background-color: black;
 }
 
-.main-container {
-    background: linear-gradient(243deg, #262737 8.32%, rgba(38, 42, 55, 0.00) 80.41%);
-    width: 100vw;
-    height: 100vh;
 
-}
 
 .title {
     color: #9AA5B5;
-    font-family: Inter;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+
+    
+
+
 }
 
 
-.sub-container {
-    display: flex;
-    flex-direction: row;
-}
 
 
-.form-container {}
 
 
 .form-input {
 
     height: 83px;
+    color: rgb(255, 255, 255);
     padding: 29px 129px 30px 19px;
     align-items: center;
     border-radius: 30px;
     background: #323644;
+    
 
 }
 
 .form-input-email{
     display: flex;
-width: 560px;
+
 height: 84px;
 padding: 41px 376px 19px 52px;
 align-items: center;
@@ -64,7 +57,7 @@ flex-shrink: 0;
     border: 1px solid #AAA1A1;
     background: #323644;
     color: #FFF;
-font-family: Inter;
+    font-family: 'Inter', sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -73,11 +66,11 @@ line-height: normal;
 
 
 
-.des-container {}
+
 
 .des {
-    color: #FFF;
-    font-family: Inter;
+    color: #c3c2c2;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 100;
@@ -85,10 +78,11 @@ line-height: normal;
 }
 
 .moreInfo {
-    color: #FFF;
-    font-family: Inter;
+    color: #929292;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
 }
+

@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <script defer src="app.js"></script>
 </head>
-<body>
-    <div class="main-container">
-        <div class="title underline">Unlock Your Potential: Register Now for our Training Event!</div>
-        <div class="sub-container">
-            <div class="form-container">
-                <form action="">
-                    <div class="flex">
-                        <input class="form-input" type="text">
-                        <input class="form-input" type="text">
-                    </div>
-                    <input class="form-input form-input-email" type="email">
-                    <div class="flex">
-                        <input class="form-input" type="text">
-                        <input class="form-input" type="text">
-                    </div>
-                    <button class="register-button">Register</button>
-                </form>
-            </div>
-            <div class="des-container">
-                <div class="des">Are you ready to embark on a transformative journey towards personal and professional growth? Don't miss out on this exclusive opportunity to expand your horizons and acquire valuable skills that will set you on the path to success. Register now for the training event of a lifetime!</div>
-                <div class="moreInfo">For more information feel free to reach out to Senash : +94 77 845 1515</div>
+<body class="pt-10 ">
+    
+    <div class="h-screen w-screen flex flex-col  items-center ">
+        <div class=" flex flex-col justify-center items-center h-full 2xl:w-4/6">
+            <div class="text-5xl title text-center mb-10  ">Unlock Your Potential: Register Now for our Training Event!</div>
+            <div class="flex flex-col-reverse 2xl:flex-row  2xl:mt-10">
+                <div class="mt-10 mb-10 2xl:w-1/2 2xl:mt-0" >
+                    <form action="" class="flex flex-col w-full items-center justify-center ">
+                        <div class="flex flex-col items-center mb-5 gap-3">
+                            <div class="flex flex-col items-center gap-3 2xl:flex-row">
+                                <input class="form-input 2xl:w-4/6" type="text" placeholder="First Name">
+                                <input class="form-input 2xl:w-4/6" type="text" placeholder="Last Name">
+                            </div>
+                            <input  class="form-input 2xl:w-full" type="email" placeholder="Email Addres">
+                            <div class="flex flex-col items-center gap-3 2xl:flex-row">
+                                <input class="form-input 2xl:w-4/6" type="text" placeholder="Department">
+                                <input class="form-input 2xl:w-4/6" type="text" placeholder="Contact Number">
+                            </div>
+                        </div>
+                        <button class="register-button">Register</button>
+                    </form>
+                </div>
+                <div class="des-container flex flex-col 2xl:w-1/2  ">
+                    <div class="des mb-5 text-center px-6 2xl:text-left">Are you ready to embark on a transformative journey towards personal and professional growth? Don't miss out on this exclusive opportunity to expand your horizons and acquire valuable skills that will set you on the path to success. Register now for the training event of a lifetime!</div>
+                    <div class="moreInfo  text-center px-6 2xl:text-right">For more information feel free to reach out to Senash : +94 77 845 1515</div>
+                </div>
             </div>
         </div>
     </div>
